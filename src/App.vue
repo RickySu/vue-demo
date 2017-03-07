@@ -1,5 +1,8 @@
 <template>
   <div class="main">
+    <div class="product">
+      <h2>test product in App</h2>
+    </div>
     <com-header></com-header>
     <router-view></router-view>
   </div>

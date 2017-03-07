@@ -46,6 +46,16 @@ module.exports = {
         }
       },
       {
+        test: /\.scss$/,
+        loader: 'sass',
+        exclude: /node_modules/
+      },
+      {
+        test: /\.sass$/,
+        loader: 'sass?indentedSyntax',
+        exclude: /node_modules/
+      },
+      {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         query: {
